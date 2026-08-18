@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2bYLH6or3qM=",
+  "success": true,
+  "projectFilePath": "D:\\Personal\\SafetyCompliance\\SafetyCompliance.Infrastructure\\SafetyCompliance.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.11\\microsoft.extensions.dependencyinjection.abstractions.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
