@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using SafetyCompliance.Application.Abstraction.IJWT;
+using SafetyCompliance.Infrastructure.JWT;
 
 namespace SafetyCompliance.Infrastructure
 {
@@ -6,8 +8,8 @@ namespace SafetyCompliance.Infrastructure
     {
         public static IServiceCollection AddInfrastructureService(this IServiceCollection services)
         {
-            // Add your infrastructure-related services here
-            // For example, you can add logging, caching, etc.
+            services.AddScoped<IJWTService, JWTService>();
+      
             return services;
         }
     }

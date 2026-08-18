@@ -1,10 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "2bYLH6or3qM=",
+  "dgSpecHash": "nOL28ohPDlw=",
   "success": true,
   "projectFilePath": "D:\\Personal\\SafetyCompliance\\SafetyCompliance.Infrastructure\\SafetyCompliance.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.11\\microsoft.extensions.dependencyinjection.abstractions.10.0.11.nupkg.sha512"
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.bcl.cryptography\\10.0.2\\microsoft.bcl.cryptography.10.0.2.nupkg.sha512",
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.19\\microsoft.extensions.configuration.abstractions.9.0.19.nupkg.sha512",
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.11\\microsoft.extensions.dependencyinjection.abstractions.10.0.11.nupkg.sha512",
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.19\\microsoft.extensions.primitives.9.0.19.nupkg.sha512",
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.22.0\\microsoft.identitymodel.abstractions.8.22.0.nupkg.sha512",
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.22.0\\microsoft.identitymodel.jsonwebtokens.8.22.0.nupkg.sha512",
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.identitymodel.logging\\8.22.0\\microsoft.identitymodel.logging.8.22.0.nupkg.sha512",
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.22.0\\microsoft.identitymodel.tokens.8.22.0.nupkg.sha512",
+    "C:\\Users\\mohammad.bhat\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.22.0\\system.identitymodel.tokens.jwt.8.22.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SafetyCompliance.Domain.Entity
+﻿namespace SafetyCompliance.Domain.Entity
 {
     public class BaseEntity
     {
-        public Guid Id = Guid.NewGuid();
+        public Guid Id { get; set; } = Guid.NewGuid();
 
         public Guid CreatedBy { get; set; }
 
@@ -17,5 +11,6 @@ namespace SafetyCompliance.Domain.Entity
         public Guid ModifiedBy { get; set; }
 
         public DateTime ModifiedOn { get; set; }
+        
     }
 }

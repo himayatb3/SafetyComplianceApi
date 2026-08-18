@@ -1,0 +1,139 @@
+## Visual Studio / .NET Core
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.dll
+*.exe
+
+# Visual Studio cache/options
+.vs/
+.v17/
+Generated\ Files/
+
+# MSTest / NUnit / other test results
+[Tt]est[Rr]esult*/
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+BenchmarkDotNet.Artifacts/
+
+# .NET Core artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+!Directory.Build.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Node / npm / Angular
+node_modules/
+dist/
+tmp/
+out-tsc/
+.bazel-out/
+.sass-cache/
+.angular/cache
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Azure / Publish / Web Deploy
+*.publish.xml
+*.pubxml
+*.publishproj
+PublishScripts/
+AppPackages/
+BundleArtifacts/
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# 🔐 Ignore ALL environment-specific configs
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.*.local.json
+
+# 🔐 Path-specific (safer)
+NaffcoEconnect.api/appsettings.Development.json
+NaffcoEconnect.api/appsettings.Production.json
+NaffcoEconnect.api/appsettings.Staging.json
+
+# 🔐 Build / publish output
+publish/
+NaffcoEconnect.api/publish/
+
+
+# 🔐 Environment files
+.env
+.env.*
+
+# 🔐 Optional (if you ever create overrides)
+appsettings.Secrets.json
+/NaffcoEconnect.Application/Services/ChatManagementServices/ChatServices.cs
