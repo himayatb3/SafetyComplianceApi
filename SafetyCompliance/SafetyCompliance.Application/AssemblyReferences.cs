@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using SafetyCompliance.Application.Abstraction.IService;
+using SafetyCompliance.Application.Services;
 
 namespace SafetyCompliance.Application
 {
@@ -6,8 +8,7 @@ namespace SafetyCompliance.Application
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
-            // Add your application-related services here
-            // For example, you can add MediatR, AutoMapper, etc.
+            services.AddScoped<IAccountService, AccountService>();
             return services;
         }
     }

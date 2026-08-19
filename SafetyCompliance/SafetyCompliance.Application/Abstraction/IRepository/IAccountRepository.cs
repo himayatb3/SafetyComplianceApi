@@ -1,13 +1,13 @@
-﻿using SafetyCompliance.Domain.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SafetyCompliance.Domain.Entity;
 
 namespace SafetyCompliance.Application.Abstraction.IRepository
 {
     public interface IAccountRepository : IBaseRepository<User>
     {
+        Task<User?> GetByUserNameOrEmailAsync(string userNameOrEmail);
+
+        Task<bool> IsUserNameExistsAsync(string userName);
+
+        Task<bool> IsEmailExistsAsync(string email);
     }
 }

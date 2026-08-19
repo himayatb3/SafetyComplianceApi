@@ -1,4 +1,5 @@
 using SafetyCompliance.API;
+using SafetyCompliance.API.Middlewares;
 using SafetyCompliance.Application;
 using SafetyCompliance.Infrastructure;
 using SafetyCompliance.Persistence;
@@ -11,7 +12,6 @@ builder.Services.AddPersistenceServices(builder.Configuration)
                 .AddInfrastructureService()
                 .AddApiServices();
 
-builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
@@ -29,6 +29,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseMiddleware<GlobalExceptionMiddleware>();
+app.UseMiddleware<ApiResponseMiddleware>();
 
 app.UseAuthorization();
 
